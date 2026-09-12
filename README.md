@@ -2,11 +2,9 @@
 
 Fast DNS benchmarking & network diagnostics from your terminal.
 
-[![Build](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/crzc313-stack/netctl)
-[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Language](https://img.shields.io/badge/language-C-00599C)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)](Makefile) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE) [![Language](https://img.shields.io/badge/language-C-00599C)](https://en.wikipedia.org/wiki/C_(programming_language))
 
-`netctl` sends DNS queries directly to the servers you choose, measures their response time, and presents the results in a compact, color-coded table.
+`netctl` sends DNS queries to multiple resolvers in parallel and reports their response time in a compact terminal table.
 
 ## Install
 

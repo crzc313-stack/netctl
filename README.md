@@ -8,8 +8,27 @@ Fast DNS benchmarking & network diagnostics from your terminal.
 
 ## Install
 
+On a network with access to GitHub:
+
 ```sh
 curl -fsSL https://raw.githubusercontent.com/crzc313-stack/netctl/main/install.sh | sh
+```
+
+If `raw.githubusercontent.com` is blocked or cannot be resolved, use a VPN or
+your own HTTPS proxy. As a temporary third-party mirror fallback, you can run:
+
+```sh
+curl -fsSL https://gh-proxy.com/https://raw.githubusercontent.com/crzc313-stack/netctl/main/install.sh | sh
+```
+
+The mirror is not operated by this project. For a fully local install, clone
+the repository, build it, and install the binary:
+
+```sh
+git clone https://github.com/crzc313-stack/netctl.git
+cd netctl
+make
+sudo install -m 755 netctl /usr/local/bin/netctl
 ```
 
 ## Usage

@@ -1,0 +1,4 @@
+netctl
+test_dns
+*.o
+*.d
